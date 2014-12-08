@@ -27,13 +27,23 @@ func fetchMatch() {
             
             let b = fetchedMatch.valueForKeyPath("character_b.name") as NSString!
 //            println("a = \(b)")
-
+            
             println("\(a) (1) vs \(b) (2). Who wins?")
             print("> ")
             
             let inputData = keyboard.availableData
+            var input: NSString
+            
             if let input = NSString(data: inputData, encoding: NSUTF8StringEncoding) {
                 println("Input was \(input)")
+                switch input {
+                    case "1":
+                        println("User voted for \(a)")
+                case "2":
+                        println("User voted for \(b)")
+                default:
+                    println("Invalid answer")
+                }
                 
                 // TODO send match
                 fetchMatch()
