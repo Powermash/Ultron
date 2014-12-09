@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A7B83FF1A364CA700E54468 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B83FE1A364CA700E54468 /* main.swift */; };
+		7A7B84061A3787AD00E54468 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B84051A3787AD00E54468 /* Application.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		7A7B83FB1A364CA700E54468 /* Ultron */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ultron; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A7B83FE1A364CA700E54468 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7A7B84051A3787AD00E54468 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				7A7B83FE1A364CA700E54468 /* main.swift */,
+				7A7B84051A3787AD00E54468 /* Application.swift */,
 			);
 			path = Ultron;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7B84061A3787AD00E54468 /* Application.swift in Sources */,
 				7A7B83FF1A364CA700E54468 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
